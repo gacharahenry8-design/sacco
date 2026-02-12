@@ -1,0 +1,22 @@
+h2{
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family:cursive;
+}
+div.101{
+    text-align: center;
+    box-shadow: #cccccc 1px 1px 1px;
+    margin: 20px;
+    border-radius: 15%;
+    background-color: white;
+    color: white;
+}
+body{
+    background-image: url('../images/istockphoto-1243055987-612x612.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
