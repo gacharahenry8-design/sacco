@@ -364,6 +364,58 @@ align-content: center;
          justify-content: center;
           padding:30px;
  }
- form{
-
+ .footer{
+ padding:20 px;
  }
+ body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  background: #f4f4f4;
+}
+
+.carousel {
+  position: relative;
+  width: 800px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slides img {
+  width: 800px;
+  height: 400px;
+  object-fit: cover;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.prev { left: 10px; }
+.next { right: 10px; }
+
+button:hover {
+  background: rgba(0,0,0,0.8);
+}
+.carousel {
+  width: 100%;
+  max-width: 800px;
+}
+
+.slides img {
+  width: 100%;
+}

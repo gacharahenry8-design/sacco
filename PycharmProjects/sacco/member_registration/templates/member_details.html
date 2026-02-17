@@ -1,32 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Member_details</title>
-    <link rel="stylesheet" href="../../static/assets/styles/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="../../static/assets/styles/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
-<nav class="navbar">
-    <div class="logo">UMOJA SACCO.</div>
+{% extends 'base.html' %}
+{% block content %}
 
-    <ul class="nav-links" id="navLinks">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Gallery</a></li>
-        <li><a href="#">Services</a></li>
-    </ul>
-
-    <div class="search-box">
-      <input type="text" placeholder="Search...">
-      <button>Search</button>
-    </div>
-
-    <div class="menu-toggle" id="menuToggle">
-      ☰
-    </div>
-  </nav>
 
 <div class="form-container">
     <h2>Member Registration</h2>
@@ -48,40 +22,6 @@
 
     </form>
 </div>
-<footer class="footer">
-  <div class="footer-container">
 
-    <div class="footer-section">
-      <h2 class="footer-logo">YourBrand</h2>
-      <p>Building modern and responsive websites with clean design.</p>
-    </div>
-
-    <div class="footer-section">
-      <h3>Quick Links</h3>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </div>
-
-    <div class="footer-section">
-      <h3>Follow Us</h3>
-      <div class="social-links">
-        <a href="#"><i class="fa-brands fa-facebook"></i>Facebook</a>
-        <a href="#"><i class="fa-brands fa-square-twitter"></i>Twitter</a>
-        <a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a>
-      </div>
-    </div>
-
-  </div>
-
-  <div class="footer-bottom">
-    <p>&copy; 2026 YourBrand | All Rights Reserved</p>
-  </div>
-</footer>
-
-</body>
-</html>
+{% endblock %}
 
