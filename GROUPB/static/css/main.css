@@ -1,0 +1,236 @@
+
+        body {
+            background-color: #f5f7fa;
+        }
+        .navbar {
+            background-color: #343a40;
+        }
+        .navbar-brand, .nav-link {
+            color: white !important;
+        }
+          /* =========================
+   GENERAL STYLING
+========================= */
+body {
+    background-color: #f4f6f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+.navbar {
+    background: linear-gradient(90deg, #0d6efd, #0056b3);
+    padding: 15px 20px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 22px;
+    color: #ffffff !important;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    margin-left: 15px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffd700 !important;
+}
+
+/* =========================
+   PAGE HEADINGS
+========================= */
+h2 {
+    font-weight: 700;
+    color: #333;
+}
+
+.text-muted {
+    font-size: 14px;
+}
+
+/* =========================
+   ADD BUTTON
+========================= */
+.btn-success {
+    background-color: #198754;
+    border: none;
+    padding: 8px 18px;
+    font-weight: 500;
+    border-radius: 6px;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-success:hover {
+    background-color: #146c43;
+    transform: translateY(-2px);
+}
+
+/* =========================
+   STUDENT CARDS
+========================= */
+.card {
+    border: none;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+    font-weight: 600;
+    color: #0d6efd;
+}
+
+.card-subtitle {
+    font-size: 14px;
+}
+
+.card-text {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* =========================
+   CARD BUTTONS
+========================= */
+.card-actions {
+    margin-top: 15px;
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border: none;
+    border-radius: 6px;
+    padding: 5px 12px;
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    transform: scale(1.05);
+}
+
+.btn-danger {
+    border-radius: 6px;
+    padding: 5px 12px;
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+.btn-danger:hover {
+    transform: scale(1.05);
+}
+
+/* =========================
+   RESPONSIVE TWEAKS
+========================= */
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+}
+/* =========================
+   PAGE BACKGROUND
+========================= */
+body {
+    background: linear-gradient(135deg, #e9f5ec, #f8f9fa);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* =========================
+   CARD STYLING
+========================= */
+.card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* =========================
+   CARD HEADER
+========================= */
+.card-header {
+    background: linear-gradient(90deg, #198754, #157347);
+    text-align: center;
+    padding: 18px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+/* =========================
+   FORM LABELS
+========================= */
+.form-label {
+    font-weight: 600;
+    color: #333;
+}
+
+/* =========================
+   INPUT FIELDS
+========================= */
+.form-control {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #198754;
+    box-shadow: 0 0 0 0.2rem rgba(25, 135, 84, 0.25);
+}
+
+/* =========================
+   BUTTONS
+========================= */
+.btn-success {
+    background-color: #198754;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 18px;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-success:hover {
+    background-color: #146c43;
+    transform: scale(1.05);
+}
+
+.btn-secondary {
+    border-radius: 8px;
+    padding: 8px 18px;
+    transition: 0.3s;
+}
+
+.btn-secondary:hover {
+    transform: scale(1.05);
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 768px) {
+    .card {
+        margin-top: 20px;
+    }
+}
